@@ -19,7 +19,7 @@
 		<footer class="navbar">
 			<?php $this->load->view('footer')?>
 		</footer>
-		<script src="/bootstrap/js/jquery-2.1.0.min.js"></script>
-		<script src="/bootstrap/js/bootstrap.min.js"></script>
+		<script src="./bootstrap/js/jquery-2.1.0.min.js"></script>
+		<script src="./bootstrap/js/bootstrap.min.js"></script>
 	</body>
 </html>
