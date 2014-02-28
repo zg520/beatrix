@@ -4,4 +4,4 @@ ITSAccess co543,gc649,mb941,zg520
 # Add any rules below this line
 RewriteEngine on
 RewriteCond $1 !^(index\.php|images|bootstrap|css|robots\.txt)
-RewriteRule ^(.*)$ /assessments/IAPT/002/08/index.php/$1 [L]
+RewriteRule ^(.*)$ /assessments/IAPT/002/08/$1 [L]
