@@ -1,0 +1,66 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background: #ffffff;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+header{
+	padding-bottom:70px;
+}
+footer{
+	padding-top:10px;
+}
+
+#home-main-area{
+	margin-bottom: 20px;
+}
+.front-box{
+}
+.mid-box{
+	background: #F5FAFA;
+	box-shadow: 10px 10px 5px #888888;
+}
+.imageOverlay h2 {
+	background-color: #D0D0D0;
+	position:absolute;
+	max-width: 90%;
+	opacity: 0.8;
+}
+.home-category-area{
+	background-color:#F5F5F5;
+}
+.category-image{
+	max-width: 100%;
+}
+/*
+ * The category div styling.
+ */
+.category-box{
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 5px 5px 5px 5px;
+	max-width: 360px;
+	max-height: 180px;
+}
+/*
+ * Styling the inner text shown on the category.
+ */
+.category-box span{
+	bottom:40px;
+	right: 26px;
+	padding-left:2px;
+	padding-right:2px;
+	font-weight:700;
+	text-transform:capitalize;
+	color:#000000;
+	font-size:larger;
+	background-color: #D0D0D0;
+	position:absolute;
+	max-width:90%;
+	opacity: 0.8;
+}
+.category-box:hover{
+	background-color:yellow;
+}
